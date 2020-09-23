@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
 
-    
 }
 body, html {
     height: 100%;
@@ -11,6 +10,7 @@ body, html {
 }
 div {
     color: blue;
+    text-decoration: underline;
 
 }
 body {
@@ -21,34 +21,76 @@ main {
     height: 100%;
     width: 868px;
     display: grid;
-    grid-template-columns: 3fr 5fr 2fr;
+    grid-template-columns: 20% 55% 25%;
     grid-gap: 20px;
 }
 .left {
     border-style: solid 5px;
     text-align: left;
     display: grid;
-    background-color: gray;
-    grid-template-rows: 60px 45px 40px 140px 140px 190px 195px;
+    background-color: lightgray;
+    grid-template-rows: 70px 45px 40px 40px 40px 190px 195px;
 }
 .Belly {
-    display: flex;
+    display: grid;
     flex-direction: column;
-    background-color: lightgray;
+    background-color:white;
     border-style: solid 5px;
     grid-template-columns: 30% 30% 30%;
     justify-content: left;
+    grid-gap: 20px;
+    padding-top: 2em;;
+
 
 }
 
 .middle {
+    background-color: white;
     display: grid;
     grid-template-rows: 50px 1fr ;
-
+    padding-top: ;
 }
 .right {
     display: grid;
-    grid-template-rows: ;
-    background-color: gray;
+    grid-template-rows: 30px 40Spx 20px;
+    background-color: lightgray;
     
+}
+h4 {
+    background-color: lightgray;
+    font-weight: 700;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-style: solid 2px;
+    border-bottom-style: solid 1px;
+    text-decoration: underline;
+    
+    
+}
+header {
+    grid-template-columns: 50px 10px 10px 10px ;
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    font-size: 2.5em;
+    
+}
+.craigslist {
+    font-size: 2.0em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+
+}
+.searchbox {
+    background-color: lightgrey;
+    text-shadow: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-emphasis-color: white;
+
+}
+.padding {
+    padding-top: 10px;
+    text-align: center;
+    -ms-flex-align: center;
 }
